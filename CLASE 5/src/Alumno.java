@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class Alumno extends Persona {
+public class Alumno extends Persona {
 
     private String matricula;
     private Integer nota;
@@ -13,10 +13,8 @@ public abstract class Alumno extends Persona {
     }
 
 
-
-
     //constructor con atributos de la clase padre + los atributos propios
-    public Alumno(String nombre,String apellido,String matricula, Integer nota){
+    public Alumno(String nombre, String apellido, String matricula, Integer nota){
         super(nombre,apellido);
         this.matricula= matricula;
         this.nota= nota;
@@ -51,5 +49,11 @@ public abstract class Alumno extends Persona {
 
     public void setNota(Integer nota) {
         this.nota = nota;
+    }
+
+
+    @Override
+    public void Saludar(){
+        System.out.println("Que onda!");
     }
 }
