@@ -12,14 +12,22 @@ public class TryCatchBasico {
         System.out.println("Esta línea nunca se ejecuta");
         */
 
+
+
+
+
+
+
         // CON manejo de excepciones
         System.out.println("2. Con try-catch:");
+
+
         try {
             int numero = 10;
             int divisor = 0;
             int resultado = numero / divisor; // ❌ Excepción lanzada aquí
             System.out.println("Resultado: " + resultado);
-        } catch (ArithmeticException e) {
+        } catch (Exception e) {
             System.out.println("❌ Error capturado: No se puede dividir por cero");
             System.out.println("Tipo de excepción: " + e.getClass().getName());
             System.out.println("Mensaje: " + e.getMessage());

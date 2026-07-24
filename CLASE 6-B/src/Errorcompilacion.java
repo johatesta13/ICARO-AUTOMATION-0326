@@ -7,10 +7,13 @@ public class Errorcompilacion {
         //resultado1 = numero * 2;
 
         // Error 3: Tipo incorrecto
-        //String texto = 123;
+        String texto = "123";
 
-        // Error 4: Método que no existe
-        // System.out.imprimirTexto("Hola");
+        //Error 4: Método que no existe
+        //System.out.imprimirTexto("Hola");
+
+
+
 
         // Código correcto:
         int numero2 = 10;

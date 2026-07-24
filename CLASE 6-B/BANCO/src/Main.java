@@ -6,7 +6,11 @@ public class Main {
 
         try {
             cuenta.retirar(3000);
+            //Saldo en 7mil
+
             cuenta.retirar(9000);
+
+
 
         } catch (SaldoInsuficienteException e) {
 
